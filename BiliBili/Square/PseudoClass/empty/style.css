@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 4rem;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    background: lightgreen;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+/* 裡面沒其他元素時發動 */
+ul:empty {
+    background: orange;
+    display: none;
+}
+
+ul:empty + small {
+    display: none;
+}
