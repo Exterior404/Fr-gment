@@ -1,0 +1,16 @@
+CSS的使用方式有三種
+1.直接寫在旁邊
+2.寫在head
+3.寫在CSS之後引用
+
+CSS的選擇器有三種
+* 全局的
+標籤元素的 body a p 等
+類型是 html =class css則是.name
+ID選擇是 html = id css則是 #name 通用在唯一元素
+
+屬性可以共用
+使用 , 分開
+
+元素可以塞不同樣式
+class="abc1 abc2"

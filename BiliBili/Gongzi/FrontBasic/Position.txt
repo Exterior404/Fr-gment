@@ -1,0 +1,8 @@
+1. static 默認值 元素沒設定時套用
+2. relative 相對定位
+3. absolute 絕對定位 對於非static的父元素進行定位
+4. fixed 對遊覽器的絕對定位
+5. sticky 粘性定位
+介於 relative / fixed
+top和滾動配合 滾前用 margin-top
+滾之前是 relative 滾後是 fixed
