@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nue 404</title>
+
+        <!-- <link rel="stylesheet" href="style.css"> -->
+        <style>
+            *{
+                transition: all 0.6s;
+            }
+            
+            html {
+                height: 100%;
+            }
+            
+            body{
+                font-family: sans-serif;
+                color: #fff;
+                margin: 0;
+                background-color: #999;
+            }
+            
+            #main{
+                display: table;
+                width: 100%;
+                height: 100vh;
+                text-align: center;
+            }
+            
+            .fof{
+                  display: table-cell;
+                  vertical-align: middle;
+            }
+            
+            .fof h1{
+                  font-size: 50px;
+                  display: inline-block;
+                  padding-right: 12px;
+                  animation: type .5s alternate infinite;
+            }
+            
+            @keyframes type{
+                  from{box-shadow: inset -3px 0px 0px #eee;}
+                  to{box-shadow: inset -3px 0px 0px transparent;}
+            }
+        </style>
+    </head>
+
+    <body style="background-color: rgb(111, 117, 150)">
+        <div id="main">
+            <div class="fof">
+                <h1>Error 404</h1>
+            </div>
+        </div>
+        
+        <script>
+            function getRandom(min, max) {
+                return Math.floor(Math.random() * (max - min + 1)) + min;
+            }
+            function getRandomColor() {
+                var c1 = getRandom(111, 112);
+                var c2 = getRandom(111, 151);
+                var c3 = getRandom(111, 155);
+                return 'rgb(' + c1 + ',' + c2 + ',' + c3 + ')';
+            }
+            console.log(getRandomColor());
+            window.onload = function() {
+                document.body.style.backgroundColor = getRandomColor();
+            }
+        </script>
+    </body>
+</html>
