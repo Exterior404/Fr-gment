@@ -1,0 +1,180 @@
+/* Colors 
+#2B2D42 dark blue
+#8D99AE light blue
+#EDF2F4 blue to white
+#EF233C red */
+
+/* Global styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: cursive;
+    font-weight: 400;
+}
+h1 {
+    font-size: 80px;
+}
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+h3 {
+    margin: 0;
+}
+
+/* Navigation */
+nav {
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    background-color: white;
+    top: 0;
+}
+
+nav a {
+    display: inline-block;
+    margin: 5px;
+    font-size: 11px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2B2D42;
+}
+
+@media (min-width: 400px) {
+    nav a {
+        margin: 14px;
+        font-size: 16px;
+    }
+}
+
+/* Header only */
+header {
+    position: relative;
+    padding-top: 50px;
+    text-align: center;
+    background-color: #2B2D42;
+    color: #8D99AE;
+}
+
+header h1, header h2 {
+    color: #EDF2F4;
+}
+
+h1 {
+    margin: 0;
+}
+
+.content-wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 60px 50px;
+    max-width: 950px;
+    overflow: hidden;
+}
+
+@media (min-width: 935px) {
+    .content-wrap {
+        flex-direction: row;
+    }
+}
+
+.profile-img {
+    width: 150px; height: 150px; 
+    border-radius: 50%;
+}
+@media (min-width: 440px) {
+    .profile-img {
+        width: 200px; height: 200px;
+    }
+}
+@media (min-width: 935px) {
+    .profile-img {
+        width: 250px; height: 250px;
+        margin-right: 25px;
+    }
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #EF233C;
+    color: white;
+    padding: 0 5px 0 5px;
+}
+@media (min-width: 440px) {
+    .btn {
+        padding: 10px;
+    }
+}
+
+.download {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* Work */
+.work-experience {
+    padding-top: 40px;
+    background-color: #EDF2F4;
+}
+
+.work-wrapper {
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width: 950px;
+}
+
+.job-wrapper {
+    display: block;
+    padding-bottom: 30px;
+}
+@media (min-width:935px) {
+    .job-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 2.5fr;
+        columns: 30px;
+    }
+    .job-description p:first-of-type {
+        margin-top: 0;
+    }
+} 
+
+h3~p {
+    margin: 0;
+}/* 這要小心使用 */
+
+ol li {
+    margin: 8px 0;
+    padding-left: 15px;
+}
+
+/* Education */
+.education {
+    padding: 40px 0;
+    background: linear-gradient(rgba(141, 153, 174, 0.9), rgba(141, 153, 174, 0.7)), 
+    url(./chen.jpg) no-repeat fixed;
+    background-size: cover;
+}/* fixed 讓背景不移動 */
+
+.education-wrapper {
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width: 950px;
+}
+ul {
+    margin-top: 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #2B2D42;
+    color: #8D99AE;
+    margin: 0 auto;
+}
