@@ -1,0 +1,12 @@
+cmd
+npx create-react-app altimit
+npm i gh-pages
+
+package
+    "homepage":"https://exterior404.github.io/fragment/altimit",
+
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
+cmd
+npm run deploy -> push github
