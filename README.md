@@ -5,3 +5,8 @@
 <p align="center">不定期回來修改代碼，故頁面的完整性較謎。</p>
 <p align="center">https://exterior404.github.io/Fragment/</p>
 <p align="center">https://fragment-exterior404.netlify.app</p>
+<br />
+<hr />
+<p align="center">React WebSite 練習</p>
+<p align="center">https://github.com/Exterior404/Altimit</p>
+<p align="center">https://exterior404.github.io/Altimit/</p>
