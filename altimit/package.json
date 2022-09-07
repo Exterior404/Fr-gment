@@ -2,7 +2,7 @@
   "name": "altimit",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://exterior404.github.io/fragment/altimit",
+  "homepage":"https://exterior404.github.io/fragment",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
