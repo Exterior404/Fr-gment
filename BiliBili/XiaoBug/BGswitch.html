@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NF HTML</title>
+
+        <!-- <link rel="stylesheet" href="style.css"> -->
+        <style>
+            .bg {                
+                background-color: var(--bgColor);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div style="--bgColor:yellow;" class="bg">
+                test
+        </div>
+        <div style="--bgColor:blue;" class="bg">
+                test
+        </div>
+
+        <!-- 下面用在Vue
+        <div :style="declareBgColor" class="bg2">
+            test2
+        </div>
+        <input v-model="bgColor"/>
+
+        <script>
+            export default {
+                data() {
+                    return {
+                        bgColor:'red'
+                    }
+                },
+                computed: {
+                    declareBgColor() {
+                        return '--bgColor: ${this.bgColor};'
+                    }
+                }
+            }
+        </script> -->
+    </body>
+</html>
+
+<!-- https://www.bilibili.com/video/BV17d4y1B7Lg/?vd_source=cda7a60b1fd20c472b45376bb5167977 -->
